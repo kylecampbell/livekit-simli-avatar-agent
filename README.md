@@ -64,6 +64,7 @@ python dispatcher.py --port 8089
 
 In a new terminal, run the following command to start the agent:
 ```console
+source venv/bin/activate
 python agent_worker.py dev --avatar-url http://localhost:8089/launch
 ```
 
