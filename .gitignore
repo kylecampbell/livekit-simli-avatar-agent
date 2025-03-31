@@ -1,0 +1,7 @@
+.venv/
+venv/
+.DS_Store
+
+.env.local
+.env
+.env.production

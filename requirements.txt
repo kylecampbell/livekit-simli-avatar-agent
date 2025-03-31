@@ -1,0 +1,20 @@
+livekit-agents~=1.0rc
+livekit-plugins-openai~=1.0rc
+livekit-plugins-deepgram~=1.0rc
+livekit-plugins-elevenlabs~=1.0rc
+livekit-plugins-silero~=1.0rc
+# optional, only when using LiveKit's turn detection model
+livekit-plugins-turn-detector~=1.0rc
+# optional, only if background voice & noise cancellation is needed
+livekit-plugins-noise-cancellation>=0.2.0,<1.0.0
+
+python-dotenv~=1.0
+
+simli-ai
+numpy
+opencv-python
+fastapi
+uvicorn
+httpx
+
+aiortc>=1.11.0 # fixes video/rtx codec issue
