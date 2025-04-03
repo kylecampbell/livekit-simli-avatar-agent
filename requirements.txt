@@ -10,7 +10,7 @@ livekit-plugins-noise-cancellation>=0.2.0,<1.0.0
 
 python-dotenv~=1.0
 
-simli-ai
+simli-ai>=0.1.11
 numpy
 opencv-python
 fastapi
