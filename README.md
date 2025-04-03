@@ -10,21 +10,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### NOTE
-
-The `simli` package is not currently compatible. Until this is fixed, in Simli's `utils.py` file, change the `layout` value from `1` to `"mono"`. To do this... while in this project's python environment (venv), we need to git clone Simli's python client repo, edit the `utils.py` file, then pip install the repo with the `-e` flag:
-
-```console
-git clone https://github.com/simliai/simli-client-py.git
-cd simli-client-py
-```
-
-Edit the `utils.py` file, changing the `layout` value from `1` to `"mono"`.
-
-```console
-pip install -e .
-```
-
 ## Setup
 
 In this project's directory, run the following command to copy the `.env.example` file to `.env`:
